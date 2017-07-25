@@ -10,3 +10,6 @@ def test_add():
     assert lbq.math.add(5, 2) == 7
     assert lbq.math.add(2, 5) == 7
 
+def test_mult():
+    assert lbq.math.mult(5, 2) == 10
+    assert lbq.math.mult(2, 5) == 10
