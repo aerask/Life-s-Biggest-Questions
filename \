@@ -17,5 +17,4 @@ def test_mult():
 def test_greater():
     assert lbq.math.greater(5, 2) == 5
     assert lbq.math.greater(2, 5) == 5
-    assert lbq.math.greater(5, 5) == 5
-
+#    assert lbq.math.greater(5, 5) ==

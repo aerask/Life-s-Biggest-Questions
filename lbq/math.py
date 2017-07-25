@@ -16,4 +16,14 @@ def mult(a, b):
     """
     return a * b
 
-
+def greater(a, b):
+    """
+    Check for greater between two arguments
+    """
+    if a >= b:
+        return a
+    elif a < b:
+        return b
+    else:
+        print('Something weird happened')
+        return 0 
